@@ -50,7 +50,7 @@ const Login = () => {
       <div className="box">
         <Link to="/">
           <div className="logo" style={{ color: "#ffc83d" }}>
-            DCOM STUDY
+            DCOM STUDY입니다 ~~~~ 
           </div>
         </Link>
         <input
