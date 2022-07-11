@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import SideMenu from "./SideMenu.js";
+import SideMenu from "../Layout/SideMenu.js";
 import { Link } from "react-router-dom";
 
 const MainPage = ({ activeMenu, setActiveMenu }) => {
@@ -16,16 +16,14 @@ const MainPage = ({ activeMenu, setActiveMenu }) => {
             <h1>
               Welcome to{" "}
               <a style={{ color: "#ffc83d", fontSize: "min(6vw, 40px)" }}>
-                EMONG!
+                DCOM STUDY!
               </a>
             </h1>
             <p className="line"></p>
-            <h2>😀😁😂🤣😍😪</h2>
-            <h1>익명의 친구들에게 감정을 공감 받으세요!</h1>
+            <h1>로그인하고 친구들과 스터디 집중도를 측정해보세요!</h1>
             <Link to="login">
               <button>로그인하고 시작하기</button>
             </Link>
-            <h3>※ 로그인하지 않아도 이모지 표현은 가능합니다.</h3>
           </div>
         </div>
       </div>

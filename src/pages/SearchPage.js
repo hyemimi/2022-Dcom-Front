@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import SideMenu from "../pages/SideMenu";
-import SearchPostList from "../pages/SearchPostList.js";
+import SideMenu from "../Layout/SideMenu";
 
 const SearchPage = ({ activeMenu, setActiveMenu, postList, onEdit }) => {
   useEffect(() => {
@@ -37,11 +36,6 @@ const SearchPage = ({ activeMenu, setActiveMenu, postList, onEdit }) => {
               🔍
             </button>
           </div>
-          <SearchPostList
-            postList={postList}
-            onEdit={onEdit}
-            searchText={searchText}
-          />
         </div>
       </div>
     </>

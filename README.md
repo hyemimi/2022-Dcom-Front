@@ -1,9 +1,9 @@
-# EMONG (HTML/CSS/JavaScript/React/Firebase)
+# DCOM STUDY (HTML/CSS/JavaScript/React/Firebase)
 
 
 ### 프로젝트 소개
 
-- 배포 링크 : [https://taeho-choi.github.io/react-emong/](https://taeho-choi.github.io/react-emong/)
+- 배포 링크 : [https://taeho-choi.github.io/react-DCOM STUDY/](https://taeho-choi.github.io/react-DCOM STUDY/)
 - 익명으로 오늘의 감정을 공유하고, 이모지를 이용해 유저들에게 공감을 받을 수 있는 모바일/PC 반응형 웹사이트입니다.
 - html5 게임/메타버스를 개발하고 싶어 웹 공부 목적으로 개발하였습니다.
 - HTML, CSS, JavaScript 언어와 React 라이브러리를 사용하여 개발하였습니다.

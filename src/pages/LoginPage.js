@@ -50,7 +50,7 @@ const LoginPage = () => {
       <div className="box">
         <Link to="/">
           <div className="logo" style={{ color: "#ffc83d" }}>
-            😎 EMONG
+            DCOM STUDY
           </div>
         </Link>
         <input

@@ -48,9 +48,9 @@ const SignUpPage = () => {
   return (
     <div className="SignUpPage">
       <div className="box">
-        <div className="title">EMONG 회원가입</div>
+        <div className="title">DCOM STUDY 회원가입</div>
         <div className="subTitle">
-          EMONG 계정으로 모든 서비스 이용이 가능합니다.
+          DCOM STUDY 계정으로 모든 서비스 이용이 가능합니다.
         </div>
         <div className="info">아이디</div>
         <input
