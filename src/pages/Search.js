@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import SideMenu from "../Layout/SideMenu";
 
-const SearchPage = ({ activeMenu, setActiveMenu, postList, onEdit }) => {
+const Search = ({ activeMenu, setActiveMenu, postList, onEdit }) => {
   useEffect(() => {
     setActiveMenu("search");
   }, []);
@@ -42,4 +42,4 @@ const SearchPage = ({ activeMenu, setActiveMenu, postList, onEdit }) => {
   );
 };
 
-export default SearchPage;
+export default Search;

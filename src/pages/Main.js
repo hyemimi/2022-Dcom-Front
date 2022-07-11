@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import SideMenu from "../Layout/SideMenu.js";
 import { Link } from "react-router-dom";
 
-const MainPage = ({ activeMenu, setActiveMenu }) => {
+const Main = ({ activeMenu, setActiveMenu }) => {
   useEffect(() => {
     setActiveMenu("home");
   }, []);
@@ -31,4 +31,4 @@ const MainPage = ({ activeMenu, setActiveMenu }) => {
   );
 };
 
-export default MainPage;
+export default Main;

@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
-import MainPage from "./pages/MainPage.js";
-import LoginPage from "./pages/LoginPage.js";
-import SearchPage from "./pages/SearchPage";
-import SignUpPage from "./pages/SignUpPage";
+import Main from "./pages/Main.js";
+import Login from "./pages/Login.js";
+import Search from "./pages/Search";
+import SignUp from "./pages/SignUp";
 import TopMenu from "./Layout/TopMenu";
+import Record from "./pages/Record";
 import app from "./firebase.js";
 import db from "./firestore.js";
 import {
@@ -35,19 +36,19 @@ function App() {
           render={() => (
             <>
               <TopMenu isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
-              <MainPage activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
+              <Main activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
             </>
           )}
         />
-        <Route exact path="/login" render={() => <LoginPage />} />
-        <Route exact path="/register" render={() => <SignUpPage />} />
+        <Route exact path="/login" render={() => <Login />} />
+        <Route exact path="/register" render={() => <SignUp />} />
         <Route
           exact
           path="/search"
           render={() => (
             <>
               <TopMenu isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
-              <SearchPage
+              <Search
                 activeMenu={activeMenu}
                 setActiveMenu={setActiveMenu}
                 postList={data}
@@ -55,6 +56,11 @@ function App() {
             </>
           )}
         />
+          <Route exact path="/record" render={()=>(
+              <>
+                  <TopMenu isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+                  <Record/>
+              </>)} />
       </BrowserRouter>
     </div>
   );

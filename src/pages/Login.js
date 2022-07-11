@@ -6,7 +6,7 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 
-const LoginPage = () => {
+const Login = () => {
   const idRef = useRef();
   const pwRef = useRef();
 
@@ -79,4 +79,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Login;

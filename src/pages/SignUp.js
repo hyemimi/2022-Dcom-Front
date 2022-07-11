@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { useHistory } from "react-router-dom";
 
-const SignUpPage = () => {
+const SignUp = () => {
   const history = useHistory();
   const idRef = useRef();
   const pwRef = useRef();
@@ -75,4 +75,4 @@ const SignUpPage = () => {
   );
 };
 
-export default SignUpPage;
+export default SignUp;
